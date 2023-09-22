@@ -1,0 +1,25 @@
+.menu-bar_container {
+    background-color: #141E46;
+    color: #EEEEEE;
+    
+    
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+
+.menu-bar_itens > ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2rem;
+    
+}
+
+.menu-bar_itens > ul > li {
+    margin-right: 1rem;
+}
