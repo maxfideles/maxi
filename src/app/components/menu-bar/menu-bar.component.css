@@ -14,7 +14,6 @@
 
 .menu-bar_itens > ul {
     display: flex;
-    text-decoration: none;
     list-style: none;
     margin-left: 2rem;
     
@@ -22,4 +21,19 @@
 
 .menu-bar_itens > ul > li {
     margin-right: 1rem;
+
 }
+
+.menu-bar_itens > ul > li > a:hover{
+    font-weight: 500;
+    color: #C70039;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
