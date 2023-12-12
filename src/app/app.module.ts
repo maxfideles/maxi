@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { CvComponent } from './pages/cv/cv.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,11 @@ import { CvComponent } from './pages/cv/cv.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path:'',component: HomeComponent},
+      {path:'projects',component: ProjectsComponent}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
