@@ -13,6 +13,7 @@ export class ProjectCardComponent implements OnInit {
   @Input() link!: string
   @Input() stack1!: string
   @Input() stack2!: string
+  @Input() stack3!: string
   @Input() goal1!: string
   @Input() goal2!: string
   @Input() goal3!: string
