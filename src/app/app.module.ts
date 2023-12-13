@@ -8,6 +8,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { CvComponent } from './pages/cv/cv.component';
 import { RouterModule } from '@angular/router';
+import { ProjectCardComponent } from './pages/projects/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     MenuBarComponent,
     ProjectsComponent,
-    CvComponent
+    CvComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
