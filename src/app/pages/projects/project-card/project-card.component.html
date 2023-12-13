@@ -1,1 +1,21 @@
-<p>project-card works!</p>
+<div class="project-card-container">
+    <div class="image">
+        <img [src]="imgsrc">
+    </div>
+
+    <div class="text">
+        <div class="title">
+            <h3>{{title}}</h3>
+        </div>
+        <div class="description">
+            {{description}}
+        </div>
+        <hr>
+        <div class="icons">
+            <div class="stacks">
+                <img [src]="stack1">
+                <img [src]="stack2">
+            </div>
+        </div>
+    </div>
+</div>

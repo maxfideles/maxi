@@ -1,0 +1,25 @@
+.project-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    width: 80%;
+}
+li{
+    border: 1px solid black;
+    border-radius: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+
+app-project-card{
+    width: 90%;
+}
+
