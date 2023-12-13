@@ -6,25 +6,33 @@
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
+    padding: 1rem;
+}
+
+.title{
+    margin-bottom: 0.5rem;
 }
 
 .image > *{
-    width: 300px;
+    width: 90%;
 }
 
 .stacks > img{
     width: 30px;
+}
 
+li {
+    margin: 1rem;
 }
 
 hr{
-    margin: 2rem;
+    margin: 1rem;
 }
 
 /* For Mobile */
 @media(max-width:480px){
     .image > *{
-        width: 150px;
+        width: 200px;
     }
     .text{
         margin-left: 0.2rem;
@@ -33,4 +41,7 @@ hr{
         margin: 0px;
     }
 
+    .project-card-container{
+        flex-direction: column;
+    }
 }
