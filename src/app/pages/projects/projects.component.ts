@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-projects',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  safeUrl!: SafeResourceUrl
 
-  constructor() { }
+  constructor(private sanitize: DomSanitizer) { }
 
   ngOnInit(): void {
+  }
+
+
+  sanitazeUrl(url:string): SafeResourceUrl{
+
+    this.safeUrl = this.sanitize.bypassSecurityTrustResourceUrl(url)
+
+    return this.safeUrl
+
   }
 
 }
