@@ -1,11 +1,15 @@
 <div class="project-card-container">
-    <div class="image">
-        <img [src]="imgsrc">
+    <div class="iframe">
+        <iframe [src]="iframeSafeURL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            
+        </iframe>
     </div>
 
     <div class="text">
         <div class="title">
+            <a [href]="titleLink" target="_blank">
             <h3>{{title}}</h3>
+            </a>
         </div>
         <div class="description">
 
@@ -21,7 +25,9 @@
             <div class="stacks">
                 <img [src]="stack1">
                 <img [src]="stack2">
-                <img [src]="stack3">
+                <img *ngIf="stack3!=null" [src]="stack3">
+                <img *ngIf="stack4!=null" [src]="stack4">
+
             </div>
         </div>
     </div>
