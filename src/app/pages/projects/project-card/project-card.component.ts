@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-project-card',
@@ -8,19 +9,24 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProjectCardComponent implements OnInit {
 
   @Input() title!:string
-  @Input() imgsrc!:string
+  @Input() iframesrc!:string
   @Input() description!: string
   @Input() link!: string
   @Input() stack1!: string
   @Input() stack2!: string
   @Input() stack3!: string
+  @Input() stack4!: string
   @Input() goal1!: string
   @Input() goal2!: string
   @Input() goal3!: string
+  @Input() titleLink!: string
 
-  constructor() { }
+  @Input() iframeSafeURL!: SafeResourceUrl
 
-  ngOnInit(): void {
+  constructor() { 
+  }
+
+  ngOnInit(): void {   
   }
 
 }
