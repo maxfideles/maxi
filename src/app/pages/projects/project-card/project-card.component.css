@@ -41,7 +41,7 @@ a:hover > h3{
 }
 
 /* For Mobile */
-@media(max-width:480px){
+@media(max-width:590px){
     .text{
         margin-left: 0.2rem;
     }
