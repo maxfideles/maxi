@@ -31,6 +31,10 @@
 
 }
 
+.page-activated{
+    color: var(--pink-hoover);
+}
+
 a {
     text-decoration: none;
     color: #EEEEEE;
