@@ -9,6 +9,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { CvComponent } from './pages/cv/cv.component';
 import { RouterModule } from '@angular/router';
 import { ProjectCardComponent } from './pages/projects/project-card/project-card.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectCardComponent } from './pages/projects/project-card/project-card
     MenuBarComponent,
     ProjectsComponent,
     CvComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
