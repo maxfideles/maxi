@@ -26,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     RouterModule.forRoot([
       {path:'',component: HomeComponent},
+      {path:'home',component:HomeComponent},
       {path:'projects',component: ProjectsComponent}
     ])
   ],
