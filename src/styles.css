@@ -13,6 +13,12 @@ body {
     background-color: #EEEEEE;
 }
 
+:root{
+    --dark-blue: #141E46;
+    --pink-hoover: #FF6969;
+}
+
+
 /* Palette Color 
 
 https://colorhunt.co/palette/053b50176b8764ccc5eeeeee
