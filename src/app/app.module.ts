@@ -10,6 +10,7 @@ import { CvComponent } from './pages/cv/cv.component';
 import { RouterModule } from '@angular/router';
 import { ProjectCardComponent } from './pages/projects/project-card/project-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainCardComponent } from './pages/home/main-card/main-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     CvComponent,
     ProjectCardComponent,
-    FooterComponent
+    FooterComponent,
+    MainCardComponent
   ],
   imports: [
     BrowserModule,
