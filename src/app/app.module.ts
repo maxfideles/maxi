@@ -32,7 +32,7 @@ import { MainCardComponent } from './pages/home/main-card/main-card.component';
       {path:'',component: HomeComponent},
       {path:'home',component:HomeComponent},
       {path:'projects',component: ProjectsComponent}
-    ])
+    ],{useHash:true})
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
