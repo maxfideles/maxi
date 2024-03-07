@@ -11,6 +11,8 @@
 
 .pic > img{
     height: 400px;
+    position: relative;
+    top: 4px;
     
 }
 
