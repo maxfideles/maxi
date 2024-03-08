@@ -1,0 +1,19 @@
+.summary, .tech {
+    padding: 3rem;
+}
+
+.summary h2, .tech h2{
+    padding-bottom: 1rem;
+}
+
+img{
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+table *{
+    padding: .5rem;
+}
