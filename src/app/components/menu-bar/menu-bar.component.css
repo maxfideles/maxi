@@ -25,14 +25,19 @@
 
 }
 
-.menu-bar_itens > ul > li > a:hover{
-    font-weight: 500;
-    color: var(--pink-hoover);
+.menu-bar_itens a{
+    transition: font-weight 1s ease-out, color .3s ease-in-out, border .1s ease-in-out;
+}
 
+.menu-bar_itens a:hover{
+    font-weight: 900;
+    color: var(--pink-hoover);
+    border-bottom: 1px solid white;
 }
 
 .page-activated{
     color: var(--pink-hoover);
+    border-bottom: 1px solid white;
 }
 
 a {

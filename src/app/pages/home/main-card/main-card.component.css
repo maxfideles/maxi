@@ -33,6 +33,35 @@
     
 }
 
+.prof{
+    overflow: hidden;
+}
+
+.prof ul{
+    position: sticky;
+    margin-bottom: 2rem;
+
+    width: 320px;
+}
+.prof li{
+    position: absolute;
+    list-style: none;
+}
+
+.prof li:nth-child(1){
+    animation: 3s ease-in-out infinite moveText;   
+}
+.prof li:nth-child(2){
+    animation: 3s ease-in-out infinite moveText; 
+    animation-delay: 1.2s;
+}
+
+@keyframes moveText{
+    0%,20%{transform: translate3d(0,30px,0); visibility: hidden; opacity: 0;}
+    50%{transform:translate3d(0,0,0); visibility: visible; opacity: 1;}
+    80%,100%{transform: translate3d(0,-30px,0); visibility: hidden;opacity: 0; }
+}
+
 @media (max-width:400px) {
 
     .main-card-container{

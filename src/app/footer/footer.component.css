@@ -15,6 +15,9 @@
     color: white;
 }
 
+span{
+    transition: color .3s ease-in-out;
+}
 
 span:hover{
     color: var(--pink-hoover);

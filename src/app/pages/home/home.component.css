@@ -8,12 +8,37 @@
 
 img{
     filter: grayscale(100%);
+    transition: filter .5s ease-in-out;
+    animation: 10s ease-in-out infinite colorAni;
+}
+
+tr td:nth-child(1) img{
+    animation-delay: 2s;
+}
+tr td:nth-child(2) img{
+    animation-delay: 4s;
+}
+tr td:nth-child(3) img{
+    animation-delay: 6s;
+}
+tr td:nth-child(4) img{
+    animation-delay: 8s;
+}
+tr td:nth-child(5) img{
+    animation-delay: 10s;
 }
 
 img:hover {
     filter: grayscale(0%);
 }
 
+@keyframes colorAni {
+    0%{filter: grayscale(100%);}
+    100%{filter: grayscale(0%)}
+}
+
+
 table *{
     padding: .5rem;
 }
+
