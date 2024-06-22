@@ -125,3 +125,17 @@ app-project-card{
     width: 90%;
 }
 
+@media (max-width:725px){
+    .project{
+        flex-direction: column;
+    }
+
+    .buttons {
+        img{
+             display: none;
+        }
+    }
+
+
+}
+
