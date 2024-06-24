@@ -28,6 +28,10 @@ tr td:nth-child(5) img{
     animation-delay: 10s;
 }
 
+tr td img{
+    width: 75px;
+}
+
 img:hover {
     filter: grayscale(0%);
 }
@@ -40,5 +44,19 @@ img:hover {
 
 table *{
     padding: .5rem;
+}
+
+@media (max-width:620px){
+    tr td img{
+        width: 50px;
+    }
+    .summary, .tech{
+        padding: 2rem;
+    }
+}
+@media (max-width:475px){
+    tr td img{
+        width: 40px;
+    }
 }
 
