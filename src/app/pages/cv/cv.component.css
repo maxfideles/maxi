@@ -2,3 +2,27 @@ div .c20{
     background-color: aqua;
 }
 
+iframe{
+    transform: scale(.9);
+    width: 100%;
+    height: 9999px;
+    margin: auto; 
+    border: none;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #141E46;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+@media(max-width:430px){
+    iframe {
+        width: 100%;
+    }
+}
+
