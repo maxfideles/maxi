@@ -2,13 +2,22 @@ div .c20{
     background-color: aqua;
 }
 
+.container{
+    width: 58%; 
+    height: 122rem; 
+    display: flex; 
+    flex-direction: column; 
+    margin: auto;
+    overflow-y:clip;
+    
+}
+
 iframe{
     transform: scale(.9);
     width: 100%;
     height: 9999px;
     margin: auto; 
-    border: none;
-    
+    border: none;    
 }
 
 
@@ -21,8 +30,14 @@ a{
 }
 
 @media(max-width:430px){
-    iframe {
+
+    .container{
         width: 100%;
+        height: 200rem;
     }
+    p{
+        text-align: center;
+    }
+
 }
 
