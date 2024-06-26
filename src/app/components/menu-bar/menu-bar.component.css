@@ -26,11 +26,11 @@
 }
 
 .menu-bar_itens a{
-    transition: font-weight 1s ease-out, color .3s ease-in-out, border .1s ease-in-out;
+    transition: font-weight .3s ease-out, color .3s ease-in-out, border .1s ease-in-out;
 }
 
 .menu-bar_itens a:hover{
-    font-weight: 900;
+    font-weight: 600;
     color: var(--pink-hoover);
     border-bottom: 1px solid white;
 }

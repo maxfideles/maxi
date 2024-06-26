@@ -31,7 +31,8 @@ import { MainCardComponent } from './pages/home/main-card/main-card.component';
     RouterModule.forRoot([
       {path:'',component: HomeComponent},
       {path:'home',component:HomeComponent},
-      {path:'projects',component: ProjectsComponent}
+      {path:'projects',component: ProjectsComponent},
+      {path:'cv', component: CvComponent}
     ],{useHash:true})
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
